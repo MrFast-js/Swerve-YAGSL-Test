@@ -1,0 +1,148 @@
+{
+  "HALProvider": {
+    "Other Devices": {
+      "Talon FX (v6)[2]/Rotor Sensor": {
+        "header": {
+          "open": true
+        }
+      },
+      "Talon FX (v6)[51]": {
+        "header": {
+          "open": true
+        }
+      },
+      "Talon FX[50]": {
+        "header": {
+          "open": true
+        }
+      },
+      "Talon FX[51]/Integrated Sensor": {
+        "header": {
+          "open": true
+        }
+      },
+      "Talon FX[52]/Integrated Sensor": {
+        "header": {
+          "open": true
+        }
+      },
+      "Talon FX[8]/Integrated Sensor": {
+        "header": {
+          "open": true
+        }
+      }
+    }
+  },
+  "NTProvider": {
+    "types": {
+      "/FMSInfo": "FMSInfo",
+      "/LiveWindow/SwerveSubsystem": "Subsystem",
+      "/LiveWindow/Ungrouped/PIDController[1]": "PIDController",
+      "/LiveWindow/Ungrouped/Pigeon 2 [13]": "Gyro",
+      "/LiveWindow/Ungrouped/Scheduler": "Scheduler",
+      "/SmartDashboard/Alerts": "Alerts",
+      "/SmartDashboard/Encoders": "Alerts",
+      "/SmartDashboard/Field": "Field2d",
+      "/SmartDashboard/IMU": "Alerts",
+      "/SmartDashboard/JSON": "Alerts",
+      "/SmartDashboard/Motors": "Alerts",
+      "/SmartDashboard/Pigeon 2 (v6) [13]": "Gyro",
+      "/SmartDashboard/Pigeon 2 [13]": "Gyro",
+      "/SmartDashboard/SendableChooser[0]": "String Chooser",
+      "/SmartDashboard/Swerve Drive": "Alerts",
+      "/SmartDashboard/VisionSystemSim-Vision/Sim Field": "Field2d",
+      "/SmartDashboard/navX-Sensor[1]": "Gyro",
+      "/SmartDashboard/navX-Sensor[4]": "Gyro"
+    },
+    "windows": {
+      "/FMSInfo": {
+        "window": {
+          "visible": true
+        }
+      },
+      "/SmartDashboard/Field": {
+        "OdometryPose": {
+          "arrowColor": [
+            255.0,
+            255.0,
+            0.0,
+            255.0
+          ],
+          "color": [
+            224.99996948242188,
+            0.0,
+            255.0,
+            255.0
+          ]
+        },
+        "VisionEstimation": {
+          "style": "Box/Image"
+        },
+        "XModules": {
+          "arrows": false,
+          "image": "swerve_module.png",
+          "length": 0.30000001192092896,
+          "selectable": false,
+          "width": 0.30000001192092896
+        },
+        "apriltag": {
+          "arrows": false,
+          "image": "tag-green.png",
+          "length": 0.6000000238418579,
+          "width": 0.5
+        },
+        "builtin": "",
+        "height": 8.210550308227539,
+        "image": "C:\\Users\\jedij\\Downloads\\2025 REEFSCAPE Gray Background.png",
+        "tracked targets": {
+          "arrowColor": [
+            0.0,
+            1.0,
+            0.0,
+            255.0
+          ],
+          "color": [
+            0.0,
+            225.00003051757813,
+            255.0,
+            255.0
+          ],
+          "selectable": false,
+          "style": "Box/Image"
+        },
+        "units": "meters",
+        "visibleTargetPoses": {
+          "arrows": false,
+          "image": "tag-blue.png",
+          "length": 0.5,
+          "selectable": false,
+          "style": "Box/Image",
+          "width": 0.4000000059604645
+        },
+        "width": 16.541748046875,
+        "window": {
+          "visible": true
+        }
+      }
+    }
+  },
+  "NetworkTables": {
+    "transitory": {
+      "FMSInfo": {
+        "open": true
+      },
+      "SmartDashboard": {
+        "Field": {
+          "open": true
+        },
+        "open": true,
+        "swerve": {
+          "open": true
+        }
+      }
+    }
+  },
+  "NetworkTables Info": {
+    "visible": true
+  }
+}
