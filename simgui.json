@@ -45,6 +45,7 @@
       "/SmartDashboard/Field": "Field2d",
       "/SmartDashboard/IMU": "Alerts",
       "/SmartDashboard/JSON": "Alerts",
+      "/SmartDashboard/LED Options": "String Chooser",
       "/SmartDashboard/Motors": "Alerts",
       "/SmartDashboard/Pigeon 2 (v6) [13]": "Gyro",
       "/SmartDashboard/Pigeon 2 [13]": "Gyro",
@@ -128,7 +129,10 @@
   },
   "NetworkTables": {
     "transitory": {
-      "FMSInfo": {
+      "CameraPublisher": {
+        "center-processed": {
+          "open": true
+        },
         "open": true
       },
       "SmartDashboard": {
