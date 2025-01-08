@@ -168,17 +168,7 @@ public class Vision
   public Optional<EstimatedRobotPose> getEstimatedGlobalPose(Cameras camera)
   {
     Optional<EstimatedRobotPose> poseEst = camera.getEstimatedGlobalPose();
-    if (Robot.isSimulation())
-    {
-      // poseEst.ifPresentOrElse(
-      //     est ->
-      //       field2d.getObject("VisionEstimation").setPose(est.estimatedPose.toPose2d()),
-      //     () -> {
-      //       field2d.getObject("VisionEstimation").setPoses();
-      //     });
 
-          
-    }
     return poseEst;
   }
 
